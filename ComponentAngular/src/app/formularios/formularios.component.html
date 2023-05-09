@@ -1,0 +1,16 @@
+
+<table id="formulario">
+  <tr>
+    <th>Nombre</th>
+    <th>Email</th>
+    <th>Mensaje</th>
+    <th>Respuesta</th>
+  </tr>
+
+  <tr *ngFor="let formulario of listFormulario">
+    <td>{{formulario.nombre}}</td>
+    <td>{{formulario.email}}</td>
+    <td>{{formulario.mensaje}}</td>
+    <td>{{formulario.respuesta}}</td>
+  </tr>
+</table>
